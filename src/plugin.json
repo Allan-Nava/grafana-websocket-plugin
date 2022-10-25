@@ -15,8 +15,8 @@
     },
     "keywords": ["websocket", "live", "stream", "api", "datasource"],
     "logos": {
-      "small": "img/logo.svg",
-      "large": "img/logo.svg"
+      "small": "img/logo_white.png",
+      "large": "img/logo_white.png"
     },
     "links": [
       {
@@ -33,7 +33,7 @@
       {"name": "Websockets Payloads", "path": "img/assets/grafana-websockets-graphing.png"},
       {"name": "Streaming", "path": "img/assets/grafana-websockets-plugin-streaming.png"}
     ],
-    "version": "1.0.60",
+    "version": "1.0.61",
     "updated": "%TODAY%"
   },
   "dependencies": {
