@@ -140,9 +140,9 @@ func (wsdp *wsDataProxy) wsConnect() (*websocket.Conn, error) {
 		log.DefaultLogger.Info("Ws Connect", "connected to Connectionstring", val)
 		// send connection string
 		stringJSON := `{"id":1}`
-		connectionErr := c.WriteMessage(websocket.TextMessage, []byte(stringJSON))
-		if connectionErr != nil {
-			return nil, connectionErr
+		err1 := c.WriteMessage(websocket.TextMessage, []byte(stringJSON))
+		if err1 != nil {
+			return nil, err1
 		}
 		time.Sleep(2* time.Second)
 		// send connection string
