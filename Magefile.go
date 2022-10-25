@@ -1,4 +1,5 @@
-//+build mage
+//go:build mage
+// +build mage
 
 package main
 
@@ -10,7 +11,7 @@ import (
 
 // Hello prints a message (shows that you can define custom Mage targets).
 func Hello() {
-	fmt.Println("hello plugin developer!")
+	fmt.Println("hello plugin developer! HiWay Media")
 }
 
 // Default configures the default target.
