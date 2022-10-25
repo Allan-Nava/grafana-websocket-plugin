@@ -1,4 +1,5 @@
 # WebSocket Data Source for Grafana
+[![Release](https://github.com/Allan-Nava/grafana-websocket-plugin/actions/workflows/release.yml/badge.svg)](https://github.com/Allan-Nava/grafana-websocket-plugin/actions/workflows/release.yml)
 
 A WebSocket data source plugin for realtime data updates in [Grafana](https://grafana.com) Dashboards. 
 
