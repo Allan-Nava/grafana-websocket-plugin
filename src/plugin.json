@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
   "name": "WebSocket API",
-  "id": "grafana-websocket-plugin",
+  "id": "hwm-websocket-plugin",
   "metrics": true,
   "backend": true,
   "streaming": true,
