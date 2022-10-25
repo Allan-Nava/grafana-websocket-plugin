@@ -1,7 +1,7 @@
 {
   "name": "allannava-websocket-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "A data source plugin for handling WebSocket connections on Grafana.",
   "scripts": {
     "start": "yarn watch",
     "build": "grafana-toolkit plugin:build",
