@@ -136,8 +136,15 @@ func (wsdp *wsDataProxy) wsConnect() (*websocket.Conn, error) {
 	}
 	log.DefaultLogger.Info("Ws Connect", "connected to", wsdp.wsUrl)
 	//wsdp.wsDataSource.customQueryParameters
-	if val, ok := wsdp.wsDataSource.customQueryParameters["connectionString"]; ok {
-		log.DefaultLogger.Info("Ws Connect", "connected to connectionString", val)
+	if val, ok := wsdp.wsDataSource.customQueryParameters["Connectionstring"]; ok {
+		log.DefaultLogger.Info("Ws Connect", "connected to Connectionstring", val)
+		// send connection string
+		stringJSON := `{"id":1}`
+		connectionErr := c.WriteMessage(websocket.TextMessage, []byte(stringJSON))
+		if connectionErr != nil {
+			return nil, connectionErr
+		}
+		time.Sleep(2* time.Second)
 		// send connection string
 		connectionErr := c.WriteMessage(websocket.TextMessage, []byte(val))
 		if connectionErr != nil {
