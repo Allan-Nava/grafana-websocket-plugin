@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.50
+
+WebSocket Data Source Plugin Launch added connection string fix for release 
+
 
 ## 1.0.48
 
