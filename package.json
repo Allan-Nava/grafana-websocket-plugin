@@ -1,5 +1,5 @@
 {
-  "name": "allannava-websocket-plugin",
+  "name": "allannava-websocket-datasource",
   "version": "1.0.0",
   "description": "A data source plugin for handling WebSocket connections on Grafana.",
   "scripts": {
