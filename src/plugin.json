@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
   "name": "WebSocket API",
-  "id": "golioth-websocket-datasource",
+  "id": "grafana-websocket-plugin",
   "metrics": true,
   "backend": true,
   "streaming": true,
@@ -10,8 +10,8 @@
   "info": {
     "description": "A data source plugin for handling WebSocket connections on Grafana.",
     "author": {
-      "name": "Golioth",
-      "url": "https://golioth.io"
+      "name": "Allan Nava",
+      "url": "https://hiway.media"
     },
     "keywords": ["websocket", "live", "stream", "api", "datasource"],
     "logos": {
@@ -21,15 +21,15 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/golioth/grafana-websocket-plugin"
+        "url": "https://github.com/Allan-Nava/grafana-websocket-plugin"
       },
       {
         "name": "License",
-        "url": "https://github.com/golioth/grafana-websocket-plugin/blob/main/LICENSE"
+        "url": "https://github.com/Allan-Nava/grafana-websocket-plugin/blob/main/LICENSE"
       }
     ],
     "screenshots": [
-      {"name": "Config Data Source", "path": "img/assets/golioth-grafana-websockets-plugin-datasource.png"},
+      {"name": "Config Data Source", "path": "img/assets/grafana-websockets-plugin-datasource.png"},
       {"name": "Websockets Payloads", "path": "img/assets/grafana-websockets-graphing.png"},
       {"name": "Streaming", "path": "img/assets/grafana-websockets-plugin-streaming.png"}
     ],

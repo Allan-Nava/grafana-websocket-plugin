@@ -30,5 +30,5 @@ e2e-results/
 .idea
 
 # Plugin Validator
-golioth-websocket-datasource/
-golioth-websocket-datasource.zip
+websocket-datasource/
+websocket-datasource.zip
