@@ -36,8 +36,8 @@ export class DataSource extends DataSourceWithBackend<
       path: replaceWithVars(path),
     }))
 
-    const result = super.query(newOptions)
-    const queries = targets.filter(target => !target.hide).map(target => target)
+    const result = super.query(newOptions);
+    const queries = targets.filter(target => !target.hide).map(target => target);
 
     return result.pipe(
       map(event => {

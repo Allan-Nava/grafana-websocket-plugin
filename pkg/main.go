@@ -18,7 +18,7 @@ func main() {
 	// ID). When datasource configuration changed Dispose method will be called and
 	// new datasource instance created using NewSampleDatasource factory.
 	if err := datasource.Manage("allannava-websocket-datasource", plugin.NewWebSocketDataSource, datasource.ManageOpts{}); err != nil {
-		log.DefaultLogger.Error(err.Error())
+		log.DefaultLogger.Error("allannava-websocket-datasource error: ", err.Error())
 		os.Exit(1)
 	}
 }
