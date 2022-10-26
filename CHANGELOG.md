@@ -1,5 +1,10 @@
 # Changelog
 
+
+## 1.0.63
+
+WebSocket Data Source Plugin Launch added connection string in header fix
+
 ## 1.0.62
 
 WebSocket Data Source Plugin Launch added connection string and fix plugin name

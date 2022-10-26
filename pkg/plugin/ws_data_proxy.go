@@ -135,9 +135,9 @@ func (wsdp *wsDataProxy) wsConnect() (*websocket.Conn, error) {
 		return nil, err
 	}
 	log.DefaultLogger.Info("Ws Connect", "connected to", wsdp.wsUrl)
-	//wsdp.wsDataSource.customQueryParameters
-	if val, ok := wsdp.wsDataSource.customQueryParameters["Connectionstring"]; ok {
-		log.DefaultLogger.Info("Ws Connect", "connected to Connectionstring", val)
+	//wsdp.wsDataSource.customHeaders solved
+	if val, ok := wsdp.wsDataSource.customHeaders["Connectionstring"]; ok {
+		log.DefaultLogger.Info("Ws Connect --customHeaders--", "connected to Connectionstring", val)
 		// send connection string
 		stringJSON := `{"id":1}`
 		err1 := c.WriteMessage(websocket.TextMessage, []byte(stringJSON))
