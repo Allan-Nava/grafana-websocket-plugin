@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/gorilla/websocket v0.0.0-20170926233335-4201258b820c
-	github.com/grafana/grafana-plugin-sdk-go v0.153.0
+	github.com/grafana/grafana-plugin-sdk-go v0.155.0
 )
