@@ -28,7 +28,7 @@
     "react-virtualized-auto-sizer": "^1.0.4"
   },
   "resolutions": {
-    "rxjs": "7.3.0"
+    "rxjs": "7.8.1"
   },
   "engines": {
     "node": ">=14"
